@@ -6,7 +6,9 @@
   "client": [],
   "server": [
     "DedicatedServerMixin",
-    "MinecraftServerMixin"
+    "MinecraftServerMixin",
+    "DefaultUncaughtExceptionHandlerMixin",
+    "MainMixin"
   ],
   "injectors": {
     "defaultRequire": 1
