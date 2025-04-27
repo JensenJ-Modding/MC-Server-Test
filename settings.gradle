@@ -11,4 +11,4 @@ include("common")
 include("fabric")
 include("forge")
 
-rootProject.name = "Architectury Mod"
+rootProject.name = "MC-Server-Test"

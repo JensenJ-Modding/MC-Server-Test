@@ -1,32 +1,32 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
-issueTrackerURL = "https://github.com/JensenJ-Modding/Architectury-Template/issues"
+issueTrackerURL = "https://github.com/JensenJ-Modding/MC-Server-Test/issues"
 license = "MIT License"
 
 [[mods]]
-modId = "architecturymod"
+modId = "mcservertest"
 version = "${version}"
-displayName = "Architectury Mod"
+displayName = "MC Server Test"
 authors = "JensenJ - Developer"
 description = '''
-Mod Description
+A simple mod which will stop a minecraft server after x seconds to produce an exit code of 0 for testing mods with GitHub actions.
 '''
 
-[[dependencies.architecturymod]]
+[[dependencies.mcservertest]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.architecturymod]]
+[[dependencies.mcservertest]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.architecturymod]]
+[[dependencies.mcservertest]]
 modId = "architectury"
 mandatory = true
 versionRange = "[9.2.14,)"

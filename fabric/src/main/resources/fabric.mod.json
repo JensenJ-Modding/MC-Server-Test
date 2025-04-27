@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "architecturymod",
+  "id": "mcservertest",
   "version": "${version}",
-  "name": "Architectury Mod",
-  "description": "Mod Description",
+  "name": "MC Server Test",
+  "description": "A simple mod which will stop a minecraft server after x seconds to produce an exit code of 0 for testing mods with GitHub actions.",
   "authors": [
     "JensenJ - Developer"
   ],
   "contact": {
-    "sources": "https://github.com/JensenJ-Modding/Architectury-Template",
-    "issues": "https://github.com/JensenJ-Modding/Architectury-Template/issues"
+    "sources": "https://github.com/JensenJ-Modding/MC-Server-Test",
+    "issues": "https://github.com/JensenJ-Modding/MC-Server-Test/issues"
   },
   "license": "MIT License",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.architecturymod.fabric.ArchitecturyModFabric"
+      "net.mcservertest.fabric.MCServerTestFabric"
     ]
   },
   "mixins": [
-    "architecturymod-common.mixins.json",
-    "architecturymod-fabric.mixins.json"
+    "mcservertest-common.mixins.json",
+    "mcservertest-fabric.mixins.json"
   ],
   "depends": {
     "fabric": "*",
